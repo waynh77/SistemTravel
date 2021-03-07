@@ -1,0 +1,15 @@
+Senin 24 Desember 
+
+1. Kata2 dalam LG Cetak LG = favour of 'blablablabla' for the Route"
+2. Desain halaman muka (Ü)
+3. Judul halaman muka di Centre diperkecil dan dibuat agak kaku warna jangan Kuning (Ü)
+4. Validasi lebih besar lebih kecil harga LG dan Invoice
+5. No telp Client dan Supplier ditambah Fax
+6. Disable warnanya lebih terang
+7. Input tiket berurutan masih terkendala dengan bug 
+8. Data Pembeli dan Data Ticket
+9. Form LG = Input tambah Form pembeli Ü
+10.Validasi Tanggal Kegerangkatan : " Mohon Periksa kembali Tanggal Keberangkatan "
+11.Tombol Log Off dan ganti password terlalu tidak kentara
+12.
+

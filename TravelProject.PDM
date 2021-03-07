@@ -1,0 +1,230 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\installer\new installer
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+cetak_inv.rpt=
+cetak_lg.rpt=
+DB_USER.DBF=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\system32\MSEXCH35.DLL=
+C:\WINNT\system32\MSEXCH35.DLL=
+C:\Program Files\WaynhSoft\msbind.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Program Files\WaynhSoft\msstdfmt.dll=
+C:\Program Files\WaynhSoft\msdbrptr.dll=
+C:\Program Files\WaynhSoft\DBGRID32.OCX=
+C:\WINNT\system32\FM20.DLL=
+C:\Program Files\TravelProject\craxddrt.dll=
+C:\Program Files\TravelProject\craxdrt.dll=
+C:\WINNT\system32\msderun.dll=
+C:\WINNT\system32\msstdfmt.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSRDO20.DLL=
+C:\WINDOWS\system32\comct332.ocx=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\MSRDO20.DLL=
+C:\Program Files\Microsoft Office\OFFICE11\MSCAL.OCX=
+C:\WINNT\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\MSCAL.OCX=
+C:\WINNT\system32\msbind.dll=
+C:\WINNT\system32\msdbrptr.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+c:\documents and settings\wahyu\my documents\waynh project\vb project\travel project\dbtravel.mdb=
+cetak_inv.rpt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\TravelProject.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\WINNT\system32\msjet35.dll=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\DbList32.OCX=Yes
+C:\WINNT\system32\Crystl32.OCX=Yes
+C:\WINNT\system32\crpe32.dll=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINNT\system32\MSXBSE35.DLL=Yes
+C:\WINNT\system32\MSEXCL35.DLL=Yes
+C:\WINNT\system32\MSEXCH35.DLL=Yes
+C:\WINNT\system32\MSTEXT35.DLL=Yes
+C:\WINNT\system32\MSLTUS35.DLL=Yes
+C:\WINNT\system32\MSPDOX35.DLL=Yes
+C:\WINNT\system32\MSRDO20.DLL=Yes
+C:\WINNT\system32\RDOCURS.DLL=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\DBTRAVEL.MDB=Yes
+C:\WINNT\system32\DBGRID32.OCX=Yes
+C:\WINNT\system32\msdbrptr.dll=Yes
+C:\WINNT\system32\msstdfmt.dll=Yes
+C:\WINNT\system32\msderun.dll=Yes
+C:\WINNT\system32\msbind.dll=Yes
+C:\WINNT\system32\MSCAL.OCX=Yes
+C:\Program Files\TravelProject\craxdrt.dll=Yes
+C:\Program Files\TravelProject\craxddrt.dll=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\wahyu_nhidayat\Desktop\TravelProject.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msvcrt40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comct332.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\waynh proj\travel project\DBtravel_access\DBTRAVEL.MDB=$(AppPath)
+D:\waynh proj\travel project\DBtravel_fox\DB_USER.DBF=$(AppPath)\dbtravel_fox
+D:\waynh proj\travel project\cetak_lg.rpt=$(AppPath)
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\TravelProject.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINNT\system32\msjet35.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\WaynhSoft\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\DbList32.OCX=$(WinSysPath)
+C:\WINNT\system32\Crystl32.OCX=$(WinSysPath)
+C:\WINNT\system32\crpe32.dll=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\WaynhSoft\msdbrptr.dll=$(WinSysPath)
+C:\Program Files\WaynhSoft\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files\WaynhSoft\msbind.dll=$(WinSysPath)
+C:\Program Files\Microsoft Office\OFFICE11\MSCAL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSEXCH35.DLL=$(WinSysPath)
+C:\WINNT\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINNT\system32\RDOCURS.DLL=$(WinSysPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\DBTRAVEL.MDB=$(AppPath)
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\DBtravel_fox\DB_USER.DBF=$(AppPath)
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\cetak_lg.rpt=$(AppPath)
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\cetak_inv.rpt=$(AppPath)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\msdbrptr.dll=$(WinSysPath)
+C:\WINNT\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINNT\system32\msderun.dll=$(WinSysPath)
+C:\WINNT\system32\msbind.dll=$(WinSysPath)
+C:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+C:\Program Files\TravelProject\craxdrt.dll=$(WinSysPath)
+C:\Program Files\TravelProject\craxddrt.dll=$(WinSysPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\wahyu_nhidayat\Desktop\TravelProject.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\waynh proj\travel project\DBtravel_access\DBTRAVEL.MDB=No
+D:\waynh proj\travel project\DBtravel_fox\DB_USER.DBF=No
+D:\waynh proj\travel project\cetak_lg.rpt=No
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\TravelProject.exe=No
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\DBTRAVEL.MDB=No
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\DBtravel_fox\DB_USER.DBF=No
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\cetak_lg.rpt=No
+C:\Documents and Settings\wahyu\My Documents\waynh project\vb project\travel project\cetak_inv.rpt=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Alpukat1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=TravelProject
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|TravelProject]
+Icon1=TravelProject.exe
+Title1=TravelProject
+StartIn1=$(AppPath)
+Key1=Icon1
